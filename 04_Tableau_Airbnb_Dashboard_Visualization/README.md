@@ -16,6 +16,7 @@ Go to this link: https://public.tableau.com/app/profile/rudolph.gutierrez/viz/Ai
 Here are all details that went into building each graph in the dashboard data visualization.
 
 ### Sheet One: Bar Graph
+Use case: identify the most & least expensive homes based on their zip code
 * Graph Name: Price by Zip Code
 * Column: Listing's Zip Code (exclude NULLS)
 * Rows: Listing's Price (Drop-down menu > Measure > Average)
@@ -23,23 +24,27 @@ Here are all details that went into building each graph in the dashboard data vi
 * Sort: Descending (most to least expensive)
 
 ### Sheet Two: Map Graph
+Use case: visualize where each zip code is located and the average home price in each zip code
 * Graph Name: Price per Zip Code
 * Column: Listing's Zip Code (Select "Show Me > Map" after dragging zipcode to Columns)
 * Rows: (Becomes Latitude after following step in Column)
 * Marks: Listing's Zip Code (label), Listing's Zip Code (color), Listing's "AVG" Price (label), adjust size of labels
 
 ### Sheet Three: Line Graph
+Use case: find the times of the year when most revenue is most likely possible (ex: summer, holiday season)
 * Graph Name: Revenue for Year
 * Column: Calendar's Date (Drop-down menu > Filter for 1/1/16-12/31/16 > break up data by year with each year split by week)
 * Rows: Calendar's Price
 
 ### Sheet Four: Bar Graph
+Use case: know the average price of a home based on how many bedrooms
 * Graph Name: Avg Price per Bedroom
 * Column: Listing's Bedrooms (Convert to dimension > Drag to columns > Remove "NULL" & "0")
 * Rows: Listing's "AVG" Price (drop-down menu > measure > average)
 * Marks: Listing's "AVG" Price (label)
 
 ### Sheet Five: Table
+Use case: identify competition based on how many homes have a certain number of bedrooms
 * Table Name: Distinct Count of Bedroom Listings
 * Rows: Listing's Bedrooms - Dimension
 * Marks: Listing's Id as Label (Drag to Marks > Drop-down menu > Measure: "Count (Distinct)")
@@ -47,7 +52,7 @@ Here are all details that went into building each graph in the dashboard data vi
 
 ## Tableau Quick Guide
 Here's a basic tutorial on how I created, build, & saved the Tableau file:
-1. Import Excel workbook: Tableu > To a File: Microsoft Excel > Select workbook > click "Open"
+1. Import Excel workbook: Tableau > To a File: Microsoft Excel > Select workbook > click "Open"
 2. Join Listings & Calendar Excel tables: Data Source > Drag "Listings" > Drag "Calendar" > Inner Join on listing's "Id" column & Calendar's "Listing Id" column
 3. Create Dashboard: Make graphs > Make new dashboard > Change Size's Range to "Automatic" > Drag & drop graphs and adjust as needed
 4. Save to Tableau: File > Save to Tableau Public As > Name the Tableau project > Save
