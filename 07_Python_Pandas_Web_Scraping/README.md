@@ -1,5 +1,5 @@
 # Python & Jupyter Notebook Web Scraping Project
-This project demonstrates how to use Python & Jupyter Notebook to scrape a website for tables, store the as DataFrames, and expor as either an Excel workbook or CSV files. This script works for Windows only.
+This project demonstrates how to use Python & Jupyter Notebook to scrape a website for tables, store them as DataFrames, and export as either an Excel workbook or CSV files. This script works for Windows only.
 
 ## This Project Demonstrates the Following Python & Jupyter Notebook Skills:
 1. Scrape web pages, read HTML, convert HTML to DataFrames, export to xlsx/csv
