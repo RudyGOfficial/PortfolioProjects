@@ -15,5 +15,5 @@ This project demonstrates how to use Python & Jupyter Notebook to scrape Amazon 
 2. Run Jupyter Notebook in browser
 3. Navigate to the cloned project and open "Amazon_Web_Scraper.ipynb"
 4. Run script: Kernel > Restart & Run All
-5. See the DataFrames in the last two cells to compare results
+5. See the DataFrames in the last two cells or open the created CSV file to compare results
 6. Customize the AutoPageScraper arguments as desired
