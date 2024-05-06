@@ -1,5 +1,6 @@
 # SQL Covid Data Exploration
-Note: This project was originally conducted by importing CSV files as flat files into SSMS; therefore, some casted data types in the SQL queries may not match the Excel imports. If this is the case, then update the queries on the fly to demonstrate the SQL queries.
+This project demonstrates fundamental SQL skills required to effectively explore & analyze datasets. The dataset used for this project pertains to COVID-19.
+* Note: This project was originally conducted by importing CSV files as flat files into SSMS; therefore, some casted data types in the SQL queries may not match the Excel imports. If this is the case, then update the queries on the fly to demonstrate the SQL queries.
 
 ## This Project Demonstrates the Following Data Analysis Skills:
   1. Use CAST values to build a calculated field showing percentage of COVID cases & deaths
